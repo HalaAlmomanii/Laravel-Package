@@ -13,7 +13,7 @@ Add these lines to your `composer.json` file
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/halaAlmomani/Laravel-Package"
+            "url": "https://github.com/halaAlmomani/Laravel-Package.git"
         }
     ]
 }
