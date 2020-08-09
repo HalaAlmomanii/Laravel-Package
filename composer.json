@@ -1,0 +1,28 @@
+{
+  "name": "hala/press",
+  "description": "A new adventure",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hala Almomani",
+      "email": "almomanihala@gmail.com"
+    }
+  ],
+  "require": {
+    "erusev/parsedown": "^1.7"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^5.3",
+    "mockery/mockery": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "hala\\Press\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "hala\\Press\\Tests\\": "tests/"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+<?php
+
+
+namespace App\Providers;
+
+use hala\Press\Facades\Press;
+use Illuminate\Support\ServiceProvider;
+
+class PressServiceProvider extends  ServiceProvider
+{
+    public function boot()
+    {
+        Press::fields($this->registerFields());
+    }
+
+    public function register()
+    {
+       //
+
+    }
+
+    private function registerFields()
+    {
+    return [];
+    }
+}
