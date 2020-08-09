@@ -1,21 +1,25 @@
-# Laravel-Package
+# Press
 An elegant markdown-powered blog for the Laravel framework.
 
 # Install
-Add these lines to your composer.json file
 
+Add these lines to your `composer.json` file
+
+```json
 {
     "require": {
-        "vicgonvt/press": "dev-master"
+        "hala/press": "dev-master"
     },
-    
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/vicgonvt/press.git"
+            "url": "https://github.com/halaAlmomani/Laravel-Package"
         }
     ]
 }
+```
+
 And then in the terminal, run the following command.
 
-composer update
+`composer update`
+
