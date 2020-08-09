@@ -8,6 +8,7 @@ Add these lines to your composer.json file
     "require": {
         "vicgonvt/press": "dev-master"
     },
+    
     "repositories": [
         {
             "type": "git",
